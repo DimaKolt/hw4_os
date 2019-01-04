@@ -1,0 +1,35 @@
+#!/bin/bash
+
+dos2unix test01 2> /dev/null
+dos2unix test02 2> /dev/null
+dos2unix test03 2> /dev/null
+dos2unix test04 2> /dev/null
+dos2unix test05 2> /dev/null
+dos2unix test06 2> /dev/null
+dos2unix test07 2> /dev/null
+dos2unix test08 2> /dev/null
+chmod a+x test01
+chmod a+x test02
+chmod a+x test03
+chmod a+x test04
+chmod a+x test05
+chmod a+x test06
+chmod a+x test07
+chmod a+x test08
+chmod a+x the_bride
+echo "Running Test 1"
+./test01
+echo "Running Test 2"
+./test02
+echo "Running Test 3"
+./test03
+echo "Running Test 4"
+./test04
+echo "Running Test 5"
+./test05
+echo "Running Test 6"
+./test06
+echo "Running Test 7"
+./test07
+echo "Running Test 8"
+./test08
